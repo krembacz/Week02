@@ -1,0 +1,31 @@
+let isHotOutside = false;
+let isRain = true;
+let isSunny = true;
+let isWindy = true;
+
+if ((isHotOutside && isRain) || (isRain || isWindy)) {
+    console.log("Don't go");
+} else if (isHotOutside && isSunny) {
+    console.log("Just go");
+} else {
+    console.log("Do whatever you want");
+}
+
+console.log("")
+
+let x = 15;
+let y = 10;
+let z = 20;
+
+if (x == y && x < z) {
+    console.log("Good job");
+} else {
+    console.log("Try again");
+}
+
+// write a do/while loop that prints 1 through 50
+let i = 0; 
+do {
+    i++; 
+    console.log(i);
+} while (i < 51);
